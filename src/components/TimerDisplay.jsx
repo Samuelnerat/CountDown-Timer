@@ -6,7 +6,7 @@ const TimerDisplay = ({ remainingTime }) => {
   const seconds = remainingTime % 60;
 
   return (
-    <div className="text-4xl font-mono my-4">
+    <div className="text-7xl font-mono my-4">
       {String(hours).padStart(2, '0')}:
       {String(minutes).padStart(2, '0')}:
       {String(seconds).padStart(2, '0')}

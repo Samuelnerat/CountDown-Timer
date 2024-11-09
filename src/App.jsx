@@ -40,7 +40,7 @@ function App() {
   return (
     // <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100" style={{ backgroundImage:`url(${image})`,backgroundRepeat:"no-repeat",backgroundSize:"contain", height:600,width:600 }}>
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100" style={{ backgroundImage:"url(/bg.jpg)",backgroundRepeat:"no-repeat",backgroundSize:"cover", opacity: 0.9, }}>
-      <div className=" bg-white bg-opacity-50 backdrop-blur-md max-w-lg shadow-2xl p-24 rounded-lg">
+      <div className=" bg-white bg-opacity-50 backdrop-blur-md max-w-xl shadow-2xl w-full  p-24 rounded-lg">
         <div className=''>
         <TimerInput 
           onSetTime={handleSetTimeAndStart} 
